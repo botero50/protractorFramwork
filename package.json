@@ -1,0 +1,30 @@
+{
+  "name": "protractor-framework",
+  "version": "1.0.0",
+  "description": "It just another e2e framework",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "node_modules/.bin/eslint e2e/",
+    "eslint:fix": "node_modules/.bin/eslint e2e --fix",
+    "webdrvr-upd": "node_modules/.bin/webdriver-manager update",
+    "e2e": "node_modules/.bin/protractor protractor.conf.js --suite e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botero50/protractorFramwork.git"
+  },
+  "author": "alejovicu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/botero50/protractorFramwork/issues"
+  },
+  "homepage": "https://github.com/botero50/protractorFramwork#readme",
+  "dependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jasmine-matchers": "^0.2.3",
+    "jasmine-reporters": "^2.3.2",
+    "protractor": "^5.4.1"
+  }
+}
